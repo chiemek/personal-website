@@ -21,7 +21,9 @@ const DOW = [
 const today = new Date();
 
 // day and time array
-currentTime.textContent = new Date().toLocaleTimeString();
+setInterval(() => {
+  currentTime.textContent = new Date().toLocaleTimeString();
+}, 1000);
 currentDate.textContent = DOW[today.getDay()];
 
 const toggleSideBar = () => {
