@@ -54,6 +54,10 @@ body {
     }
   }
 
+  #skills {
+    color: black;
+  }
+
   footer {
     text-align: center;
     width: 100vw;
