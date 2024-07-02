@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="./script.js" defer></script>
+    <title>Personal Website</title>
+  </head>
+  <body>
+    <div class="sideBar hidden">
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#skills">Skills</a></li>
+      </ul>
+    </div>
+    <header>
+      <div class="logo">PAPER</div>
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="#skills">Skills</a></li>
+        </ul>
+        <div class="button"><div class="toggle"></div></div>
+        <div class="open">&times;</div>
+      </nav>
+    </header>
+    <main>
+      <h2 data-testid="slackDisplayName">
+        CHIEKE<br />
+        CHUKWUEMEKA
+      </h2>
+
+      <div class="img-box">
+        <img
+          src="./assets/headshot-without-bg.png"
+          alt="my photo"
+          data-testid="slackProfilePicture"
+        />
+      </div>
+      <div class="dateTime">
+        <h3 data-testid="currentTimeUTC" id="time">time</h3>
+        <h3 data-testid="currentDay" id="date">Day</h3>
+      </div>
+    </main>
+    <section>
+      <h1>My Two Years Tech Plan</h1>
+      <p>This website is the detailed Plan For My Next Two Years In Tech</p>
+
+      <div>
+        <h3>First Six Months</h3>
+        <h2>Master React.js and typeScript</h2>
+        <p>
+          <img src="./assets/react-pic.png" alt="react-pics" />
+          I aim to master React and TypeScript comprehensively, beginning with
+          foundational prerequisites and core concepts. I will delve into
+          advanced topics such as React hooks (useState, useEffect), state
+          management with Redux, routing with React Router, form handling,
+          styling approaches (CSS Modules, Styled Components), testing (Jest,
+          React Testing Library), build tools (Webpack, Babel), and performance
+          optimization techniques (memoization, code splitting). Integrating
+          TypeScript will enhance type safety in components, hooks, and state
+          management, ensuring robust and scalable web applications with clearer
+          code and improved development efficiency. This journey will equip me
+          with the skills needed for modern frontend development.
+        </p>
+      </div>
+
+      <div>
+        <h3>Second Six Months</h3>
+        <h2>Master Next.js and Express.js</h2>
+        <p>
+          I am planning to master Next.js by focusing on server-side rendering,
+          API routes, dynamic routing, data fetching, deployment strategies,
+          testing, and performance optimization. Additionally, I aim to excel in
+          Express.js, particularly in middleware, routing, RESTful APIs, error
+          handling, and authentication with Passport.js. These skills will equip
+          me to effectively build robust, scalable web applications and APIs,
+          emphasizing practical application and real-world scenarios to
+          confidently implement these technologies in projects.
+        </p>
+      </div>
+
+      <div>
+        <h3>Third Six Months</h3>
+        <h2>Master Databases like Sql and MongoDb</h2>
+        <p>
+          My focus is on mastering SQL and MongoDB databases, emphasizing schema
+          design, optimized querying techniques, effective indexing strategies,
+          transaction management, and robust data modeling. These skills are
+          pivotal for developing scalable and efficient database solutions,
+          crucial in ensuring seamless data management for diverse application
+          needs. By understanding the nuances of SQL for structured data and
+          MongoDB for flexible document-based storage, I aim to adeptly handle
+          complex data structures and improve application performance through
+          proficient database management. This expertise will enable me to
+          contribute effectively to projects requiring reliable data storage,
+          retrieval, and manipulation, aligning with industry standards and best
+          practices in database administration and development.
+        </p>
+      </div>
+
+      <div>
+        <h3>Last Six months</h3>
+
+        <h2>Master Node.js and Other BackEnd Technologies</h2>
+
+        <p>
+          I plan on mastering Node.js and other backend technologies,
+          encompassing server-side JavaScript development, asynchronous
+          programming, building RESTful APIs, middleware integration, database
+          management (e.g., SQL, MongoDB), authentication and authorization
+          mechanisms, deploying scalable applications, and finally becoming a
+          full-stack web developer. These skills will enable me to excel in
+          backend development, efficiently managing data and integrating
+          seamlessly with frontend frameworks to deliver comprehensive, scalable
+          web solutions.
+        </p>
+      </div>
+      <div id="about" style="scroll-behavior: smooth">
+        <h3>ABOUT ME</h3>
+        <p>
+          I'm Chieke Chukwuemeka, a frontend web developer proficient in HTML,
+          CSS, JavaScript, and React. I specialize in building responsive and
+          interactive user interfaces, leveraging modern frontend frameworks and
+          technologies. With expertise in component-based architecture, state
+          management, and responsive design principles, I create intuitive web
+          applications that prioritize user experience. I ensure accessibility
+          and performance optimization through semantic HTML, CSS preprocessors,
+          and JavaScript frameworks. Proficient in version control with Git and
+          experienced in testing with Jest, I am committed to continuous
+          learning and innovation in frontend development to deliver robust,
+          scalable solutions aligned with industry standards.
+        </p>
+      </div>
+      <h3>Skills</h3>
+      <aside id="skills">
+        <h4>HTML</h4>
+        <h4>CSS</h4>
+        <h4>JAVASCRIPT</h4>
+        <h4>REACT</h4>
+        <h4>GIT</h4>
+        <h4>TYPESCRIPT</h4>
+        <h4>SQL</h4>
+      </aside>
+
+      <div id="contact">
+        <h2>CONTACT</h2>
+
+        <p><a href="tel:+351267645">Phone</a></p>
+        <p><a href="https://github.com/chiemek">GitHub</a></p>
+      </div>
+    </section>
+    <footer>
+      <a href="hng.tech/learn" data-testid="hngLink"
+        >Learn About hng Internship</a
+      >
+      <a href="www.keyword.dog" data-testid="keywordLink"> Seo KeyWords</a>
+      <a href="www.scrapeanyweb.site" data-testid="scrapeanywebLink"
+        >Web Scraper</a
+      >
+    </footer>
+  </body>
+</html>
